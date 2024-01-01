@@ -1,0 +1,1 @@
+This was my first ever website as part of school project. The url is https://65931e52bae3c0faf28ff8a7--majestic-donut-a2d9a5.netlify.app/ to view the website. This was when I learne html css and javascript.
