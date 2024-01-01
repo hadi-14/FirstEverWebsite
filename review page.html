@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Review page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navigation-bar">
+        <button onclick="home()">Home</button>
+        <button onclick="about()">About us</button>
+        <button onclick="contact()">Contact us</button>
+        <button onclick="review()">Review Page</button>
+    </div>
+
+    <h1 style="font:bold 50px algerian" align="center"><img src="images/Rice-Grains-1.png"><br>The rice Industry</h1>
+    <p style="font:bold 30px algerian" align="center">"We specialize in rice"</p>
+
+    <div class="left">
+        <h2 style="font:bold 40px arial">Reviews:</h2>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> I bought 50kg rice and the delivery was on time.</p>
+        <span name="star" class="right">★★★★★</span><br>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> It is the best service!!!</p>
+        <span name="star" class="right">★★★★★</span><br>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> good job.</p>
+        <span name="star" class="right">★★★★★</span><br>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> The delivery is before hand and not that expensive.</p>
+        <span name="star" class="right">★★★★★</span><br>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> The rice are the same as shown.</p>
+        <span name="star" class="right">★★★★★</span><br>
+
+        <img src="images/user.jpg" name="profile-pic">
+        <p class="reviews"> The customer service is responsive.</p>
+        <span name="star" class="right">★★★★★</span><br>
+    </div>
+
+    <br>
+
+    <div id="review-adder" hidden>
+        <input type="text" id="review-get"><br><br>
+        
+        <input id="r5" type="radio" name="rating" value="5">
+        <label for="r5">5</label>
+        <input id="r4" type="radio" name="rating" value="4">
+        <label for="r4">4</label>
+        <input id="r3" type="radio" name="rating" value="3">
+        <label for="r3">3</label>
+        <input id="r2" type="radio" name="rating" value="2">
+        <label for="r2">2</label>
+        <input id="r1" type="radio" name="rating" value="1">
+        <label for="r1">1</label>
+              
+        <br><br>
+        
+        <button id="review-submit">Submit</button><br><br>
+    </div>
+
+    <button class="review-button" onclick="review_now()" id="review-button">Comment Now</button>
+
+    <br><br><br>
+
+    <p>We have made 10,000+ delivery and still counting</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

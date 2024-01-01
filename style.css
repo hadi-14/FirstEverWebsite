@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+    padding-top: 0px;
+    background-color: ghostwhite;
+    margin: 0px;
+}
+
+.navigation-bar {
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(1, 80px);
+    -ms-grid-column-align: center;
+    /* 
+    code for making an element stick to top
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%; */
+}
+
+.navigation-bar>button {
+    font-size: 35px;
+    background-color: rgb(56, 56, 56);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navigation-bar>button:hover {
+    background-color: green;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.left {
+    text-align: left;
+    padding-left: 10%;
+}
+
+/* .right {
+    padding-right: 5%;
+    display: flex; 
+    justify-content: end;
+} */
+
+
+/* home.html */
+
+th {
+    padding: 10px;
+    border-radius: 1cm;
+}
+
+th:hover {
+    background-color: rgb(58, 58, 58);
+    transition: 0.6s;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.description {
+    font-size: 20px;
+}
+
+/* orders.html */
+
+/* .data {
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    -ms-grid-column-align: center;
+} */
+
+.data>label {
+    font-size: 300%;
+    font-style: Bold;
+    font: Arial;
+}
+
+.data-field {
+    border-radius: 10%;
+    border-width: 5px;
+    background-color: lightgray;
+    height: 3rem;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.data-field:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+/* Review page */
+
+.review-button {
+    font: bold 40px Arial;
+    height: 60px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.review-button:hover {
+    background-color: lightgray;
+}
+
+.reviews {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img[name='profile-pic'] {
+    height: 25px;
+    width: 25px;
+}
+
+span[name='star'] {
+    color: gold;
+    font-size: 30px;
+}
+
+#review-get {
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    font: bold 40px Arial;
+    text-align: center;
+}
+
+#review-submit {
+    width: 90%;
+    height: 60px;
+    border-radius: 20px;
+    font: bold 40px Arial;
+    text-align: center;
+}
+
+.star {
+    height: 30px;
+    width: 30px;
+
+}
+
+.star {
+    display: inline-block;
+    width: 7.5em;
+    height: 1.5em;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+
+.review-adder:not(old){
+    display        : inline-block;
+    width          : 7.5em;
+    height         : 1.5em;
+    overflow       : hidden;
+    vertical-align : bottom;
+}
+  
+.starRating:not(old) > label{
+    display         : block;
+    float           : right;
+    position        : relative;
+    background      : url('star.jpg');
+    background-size : contain;
+  }
+  
